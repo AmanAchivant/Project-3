@@ -1,0 +1,88 @@
+body{
+    background-color: rgb(88, 88, 207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#card{
+    background-color: aliceblue;
+    height: 500px;
+    width: 400px;
+    position: absolute;
+    top: 25%;
+    border-radius: 10px;
+}
+
+#card img{
+    height: 310px;
+    width: 350px;
+    padding: 20px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#card h1{
+    font-size: 30px;
+    font-weight:600;
+    /* font-display: centre; */
+    margin: 1px;
+    position: absolute;
+    left: 37%;
+    top: 68%;
+}
+
+#card h5{
+    height: 35px;
+    width: 110px;
+    /* border: 2px solid black; */
+    padding: 10px;
+    color: red;
+    margin: 10%;
+    font-size: 28px;
+    font-weight: 900;
+    position: absolute;
+    left: 93px;
+    top: 67%;
+}
+/* #btn-container button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} */
+
+
+#btn-container #add{
+    background-color: rgb(23, 186, 215);
+    height: 10%;
+    width: 50%;
+    font-size: 25px;
+    color:white;
+    font-weight: 700;
+    position: absolute;
+    top: 86%;
+    left: 24%;
+    border: none;
+    margin: 5px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+/* #btn-container #remove{
+    background-color: rgb(181, 196, 198);
+    height: 10%;
+    width: 40%;
+    font-size: 25px;
+    color:rgb(0, 0, 0);
+    font-weight: 700;
+    position: absolute;
+    top: 86%;
+    left: 50%;
+    border: none;
+    margin: 5px;
+    border-radius: 20px;
+
+} */
